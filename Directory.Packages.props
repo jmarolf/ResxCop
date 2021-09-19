@@ -1,9 +1,11 @@
 
 <Project>
   <ItemGroup>
-    <!-- 
-    Add new dependecies to your repo here in this format:
-    <PackageVersion Include="Newtonsoft.Json" Version="12.0.3" />
-    -->
+    <PackageVersion Include="Microsoft.Build.Locator" Version="1.4.1" />
+    <PackageVersion Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.2" />
+    <PackageVersion Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.0.0-4.final" />
+    <PackageVersion Include="Microsoft.CodeAnalysis.VisualBasic.Workspaces" Version="4.0.0-4.final" />
+    <PackageVersion Include="Microsoft.CodeAnalysis.Workspaces.MSBuild" Version="4.0.0-4.final" />
+    <PackageVersion Include="System.Linq.Async" Version="5.0.0" />
   </ItemGroup>
 </Project>

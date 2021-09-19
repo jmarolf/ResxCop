@@ -170,71 +170,15 @@ csharp_preserve_single_line_blocks = true
 csharp_preserve_single_line_statements = true
 
 #### Analyzer perferences ####
-dotnet_diagnostic.CA1024.severity = suggestion
-dotnet_diagnostic.CA1034.severity = suggestion
-dotnet_diagnostic.CA1052.severity = suggestion
-dotnet_diagnostic.CA1068.severity = suggestion
 
-dotnet_diagnostic.CA1031.severity = warning
-dotnet_diagnostic.CA1036.severity = warning
-dotnet_diagnostic.CA1041.severity = warning
-dotnet_diagnostic.CA1043.severity = warning
-dotnet_diagnostic.CA1044.severity = warning
-dotnet_diagnostic.CA1046.severity = warning
-dotnet_diagnostic.CA1054.severity = warning
-dotnet_diagnostic.CA1055.severity = warning
-dotnet_diagnostic.CA1056.severity = warning
-dotnet_diagnostic.CA1058.severity = warning
-dotnet_diagnostic.CA1061.severity = warning
-dotnet_diagnostic.CA1065.severity = warning
-dotnet_diagnostic.CA1066.severity = warning
-dotnet_diagnostic.CA1067.severity = warning
-dotnet_diagnostic.CA1069.severity = warning
-dotnet_diagnostic.CA1507.severity = warning
-dotnet_diagnostic.CA1508.severity = warning
-dotnet_diagnostic.CA1801.severity = warning
-dotnet_diagnostic.CA1802.severity = warning
-dotnet_diagnostic.CA1805.severity = warning
-dotnet_diagnostic.CA1806.severity = warning
-dotnet_diagnostic.CA1815.severity = warning
-dotnet_diagnostic.CA1819.severity = warning
-dotnet_diagnostic.CA1820.severity = warning
-dotnet_diagnostic.CA1820.severity = warning
-dotnet_diagnostic.CA1822.severity = warning
-dotnet_diagnostic.CA1823.severity = warning
-dotnet_diagnostic.CA1823.severity = warning
-dotnet_diagnostic.CA1825.severity = warning
-dotnet_diagnostic.CA1826.severity = warning
-dotnet_diagnostic.CA1827.severity = warning
-dotnet_diagnostic.CA1828.severity = warning
-dotnet_diagnostic.CA1829.severity = warning
-dotnet_diagnostic.CA1830.severity = warning
-dotnet_diagnostic.CA1832.severity = warning
-dotnet_diagnostic.CA1833.severity = warning
-dotnet_diagnostic.CA1834.severity = warning
-dotnet_diagnostic.CA1835.severity = warning
-dotnet_diagnostic.CA1836.severity = warning
-dotnet_diagnostic.CA1837.severity = warning
-dotnet_diagnostic.CA2000.severity = warning
-dotnet_diagnostic.CA2002.severity = warning
-dotnet_diagnostic.CA2009.severity = warning
-dotnet_diagnostic.CA2011.severity = warning
-dotnet_diagnostic.CA2016.severity = warning
-dotnet_diagnostic.CA2201.severity = warning
-dotnet_diagnostic.CA2208.severity = warning
-dotnet_diagnostic.CA2211.severity = warning
-dotnet_diagnostic.CA2214.severity = warning
-dotnet_diagnostic.CA2218.severity = warning
-dotnet_diagnostic.CA2219.severity = warning
-dotnet_diagnostic.CA2224.severity = warning
-dotnet_diagnostic.CA2226.severity = warning
-dotnet_diagnostic.CA2241.severity = warning
-dotnet_diagnostic.CA2242.severity = warning
-dotnet_diagnostic.CA2243.severity = warning
-dotnet_diagnostic.CA2244.severity = warning
-dotnet_diagnostic.CA2245.severity = warning
-dotnet_diagnostic.CA2248.severity = warning
-dotnet_diagnostic.CA2249.severity = warning
+# Default severity for all IDE code style rules with category 'Performance'
+dotnet_analyzer_diagnostic.category-Performance.severity = warning
+
+# Default severity for all IDE code style rules with category 'Usage'
+dotnet_analyzer_diagnostic.category-Usage.severity = warning
+
+# Default severity for all IDE code style rules with category 'SingleFile'
+dotnet_analyzer_diagnostic.category-SingleFile.severity = warning
 
 #### Naming styles ####
 
